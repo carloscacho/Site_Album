@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-column-gap: 20px;
+  grid-template-areas: "topo topo topo"
+                       "topo topo topo"
+                       "menu principal lateral"
+                       "base base base"
+}
+
+header{
+  background: red;
+  grid-area: topo;
+  height: 120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+}
+
+.logo img{
+  border-radius: 50px;
+  width:100px;
+  height:100px;
+}
+
+.titulo h1{
+  font-size: 2.5em;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+.login-button{
+  height: 50px;
+  width: 100px;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: white;
+  background-color: #3e5aff;
+  border: none;
+  -webkit-box-shadow: 0px 5px 13px 3px black;
+  -moz-box-shadow: 0px 5px 13px 3px black;
+  box-shadow: 0px 5px 13px 3px black;
+}
+
+nav{
+  background: blue;
+  grid-area: menu;
+}
+
+main{
+  background: yellow;
+  grid-area: principal;
+}
+
+aside{
+  background: green;
+  grid-area: lateral;
+}
+
+footer{
+  background: #002;
+  grid-area: base;
+  height: 100px;
+}
+
+p{
+  color: white;
+  font-size: 2em;
+}
+
+.flex-imagens{
+  display: flex;
+  flex-direction: column;
+}
+
+.row-imagens{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.grid-imagens{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-row-gap: 20px;
+  margin-top: 20px;
+}
+
+/* .card {
+  background-color: #ffe;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+} */
+
+.card > p {
+  color: black;
+}
+
+/* .grid-imagens > div.card{
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-height: 400px;
+  max-width: 320px;
+} */
+
+.card > input {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-size: 2em;
+  font-family: sans-serif;
+  border: 0;
+}
+
+.transicao {
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url("imagens/polaroid.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.transicao > h2 {
+  font-size: 4em;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
