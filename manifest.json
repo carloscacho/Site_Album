@@ -10,6 +10,8 @@
 	"theme_color": "#3e5aee",
 	"orientation": "portrait",
 	"descritiption": "Site de fotos para Compartilhar",
+	"related_applications": [],
+	"prefer_related_applications": false,
 	"icons": [
    {
     "src": "imagens/icons/android-icon-36x36.png",
@@ -50,9 +52,7 @@
 	 {
 		"src": "imagens/logo.png",
 		"sizes": "512x512",
-		"type": "image/png",
+		"type": "image/png"
 	 }
-  ],
-	"related_applications": [],
-	"prefer_related_applications": false,
+  ]
 }
