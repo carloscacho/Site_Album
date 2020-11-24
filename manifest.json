@@ -4,7 +4,7 @@
 	"name": "Album Fotos",
 	"short_name": "AF",
 	"start_url": "https://carloscacho.github.io/Site_Album/",
-	"display": "minimal-ui",
+	"display": "standalone",
 	"scope": "/Site_Album/",
 	"background_color": "#3e5aff",
 	"theme_color": "#3e5aee",
