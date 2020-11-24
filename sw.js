@@ -1,4 +1,4 @@
-const cacheName = "album-v1.1"
+const cacheName = "album-v1.2"
 const files = [
 	'/Site_Album/',
 	'/Site_Album/index.html',
