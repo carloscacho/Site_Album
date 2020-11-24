@@ -4,7 +4,7 @@ const files = [
 	'/Site_Album/index.html',
 	'/Site_Album/script.js',
 	'/Site_Album/style.css',
-	'/Site_Album/imagens/icons/favicon.ico'
+	'/Site_Album/imagens/icons/favicon.ico',
 	'https://code.jquery.com/jquery-3.2.1.slim.min.js',
   'https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js',
 	'https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js',
